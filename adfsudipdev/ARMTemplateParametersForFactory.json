@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsudipdev"
+		},
+		"LS_DATALAKE_accountKey": {
+			"value": ""
+		},
+		"LS_DB_password": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultsudipdevproject.vault.azure.net/"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://storagesudipdev.dfs.core.windows.net/"
+		},
+		"LS_DATALAKE_properties_typeProperties_url": {
+			"value": "https://storagesudipdev.dfs.core.windows.net/"
+		},
+		"LS_DB_properties_typeProperties_server": {
+			"value": "caresync-server-sudip.database.windows.net"
+		},
+		"LS_DB_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_DB_properties_typeProperties_userName": {
+			"value": "databeli"
+		},
+		"LS_HTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"LS_RESTAPI_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		}
+	}
+}
