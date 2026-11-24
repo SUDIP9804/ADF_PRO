@@ -1,0 +1,16 @@
+{
+	"name": "adfsudipdev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed0a0727-7dad-413d-8c20-4425c49e3945",
+		"tenantId": "404b1967-6507-45ab-8a6d-7374a3f478be"
+	}
+}
